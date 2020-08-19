@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-08-19T07:38:40.940Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36" etag="W1Z2eJAFOZeCVRNQDaSv" version="13.6.3" type="github">
+<mxfile host="app.diagrams.net" modified="2020-08-19T07:39:57.451Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36" etag="SgqGr9N2YKJsiCoXer5r" version="13.6.3" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1117" dy="689" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -47,10 +47,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="d8XL-BE_UVdsmNpmtMz1-18" value="NO" style="ellipse;whiteSpace=wrap;html=1;fontStyle=1;fontSize=15;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="840" y="10" width="30" height="30" as="geometry" />
+          <mxGeometry x="1030" y="80" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="d8XL-BE_UVdsmNpmtMz1-19" value="YES" style="ellipse;whiteSpace=wrap;html=1;fontStyle=1;fontSize=15;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="670" y="10" width="30" height="30" as="geometry" />
+          <mxGeometry x="660" y="260" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="d8XL-BE_UVdsmNpmtMz1-20" value="YES" style="ellipse;whiteSpace=wrap;html=1;fontStyle=1;fontSize=15;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="900" y="150" width="30" height="30" as="geometry" />
@@ -88,6 +88,9 @@
         <mxCell id="d8XL-BE_UVdsmNpmtMz1-31" value="执行自动测试或者分项测试" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fontSize=15;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="450" y="230" width="75" height="120" as="geometry" />
         </mxCell>
+        <mxCell id="d8XL-BE_UVdsmNpmtMz1-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=15;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="d8XL-BE_UVdsmNpmtMz1-33" target="d8XL-BE_UVdsmNpmtMz1-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="d8XL-BE_UVdsmNpmtMz1-33" value="测试通过？" style="rhombus;whiteSpace=wrap;html=1;fontStyle=1;fontSize=15;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="885" y="90" width="100" height="50" as="geometry" />
         </mxCell>
@@ -101,7 +104,7 @@
           <mxGeometry x="560" y="265" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="d8XL-BE_UVdsmNpmtMz1-37" value="YES" style="ellipse;whiteSpace=wrap;html=1;fontStyle=1;fontSize=15;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="540" y="10" width="30" height="30" as="geometry" />
+          <mxGeometry x="1030" y="290" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="d8XL-BE_UVdsmNpmtMz1-38" value="NO" style="ellipse;whiteSpace=wrap;html=1;fontStyle=1;fontSize=15;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="530" y="370" width="30" height="30" as="geometry" />
@@ -126,8 +129,14 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="d8XL-BE_UVdsmNpmtMz1-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=15;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="d8XL-BE_UVdsmNpmtMz1-43" target="d8XL-BE_UVdsmNpmtMz1-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="d8XL-BE_UVdsmNpmtMz1-43" value="所有VCU已检测完成？" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fontSize=15;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="910" y="230" width="75" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="d8XL-BE_UVdsmNpmtMz1-47" value="结束" style="ellipse;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1030" y="180" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

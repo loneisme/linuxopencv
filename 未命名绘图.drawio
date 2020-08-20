@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-08-20T01:45:54.783Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36" etag="fcV3YKeGKfcKiaFmDEbr" version="13.6.3" type="github">
+<mxfile host="app.diagrams.net" modified="2020-08-20T01:53:32.648Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36" etag="EAeqpjq7nvdWS2-y56U_" version="13.6.3" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="782" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -7,9 +7,9 @@
         <mxCell id="OF_hGV95gJF7EMVbI0KL-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="OF_hGV95gJF7EMVbI0KL-0" target="OF_hGV95gJF7EMVbI0KL-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <UserObject label="打开VCUWriter.exe程序（此时检测工装必须为断电状态）" id="OF_hGV95gJF7EMVbI0KL-0">
+        <UserObject label="打开VCUWriter.exe程序（&lt;font color=&quot;#ff0000&quot;&gt;此时检测工装必须为断电状态&lt;/font&gt;）" id="OF_hGV95gJF7EMVbI0KL-0">
           <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fontSize=13;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-            <mxGeometry x="10" y="240" width="90" height="80" as="geometry" />
+            <mxGeometry x="110" y="240" width="90" height="80" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="OF_hGV95gJF7EMVbI0KL-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="OF_hGV95gJF7EMVbI0KL-2" target="OF_hGV95gJF7EMVbI0KL-3">
@@ -17,7 +17,7 @@
         </mxCell>
         <UserObject label="弹窗点击确定" id="OF_hGV95gJF7EMVbI0KL-2">
           <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fontSize=13;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-            <mxGeometry x="130" y="255" width="60" height="50" as="geometry" />
+            <mxGeometry x="230" y="255" width="60" height="50" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="OF_hGV95gJF7EMVbI0KL-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="OF_hGV95gJF7EMVbI0KL-3" target="OF_hGV95gJF7EMVbI0KL-4">
@@ -25,7 +25,7 @@
         </mxCell>
         <UserObject label="依次点击“START CAN”和“CONNECT VCU”按钮" id="OF_hGV95gJF7EMVbI0KL-3">
           <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fontSize=13;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-            <mxGeometry x="220" y="240" width="90" height="80" as="geometry" />
+            <mxGeometry x="320" y="240" width="90" height="80" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="OF_hGV95gJF7EMVbI0KL-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="OF_hGV95gJF7EMVbI0KL-4" target="OF_hGV95gJF7EMVbI0KL-8">
@@ -33,7 +33,7 @@
         </mxCell>
         <UserObject label="INFO栏提示给目标板上电，此时再打开工装36V和24V电源，并按下VCU复位按钮" id="OF_hGV95gJF7EMVbI0KL-4">
           <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fontSize=13;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-            <mxGeometry x="340" y="230" width="100" height="100" as="geometry" />
+            <mxGeometry x="440" y="230" width="100" height="100" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="OF_hGV95gJF7EMVbI0KL-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="OF_hGV95gJF7EMVbI0KL-8" target="OF_hGV95gJF7EMVbI0KL-11">
@@ -41,14 +41,14 @@
         </mxCell>
         <UserObject label="等待INFO栏提示发送验证口令，在PASSWORD缓慢输入“12341234”并点击SEND按钮" id="OF_hGV95gJF7EMVbI0KL-8">
           <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fontSize=13;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-            <mxGeometry x="470" y="230" width="100" height="100" as="geometry" />
+            <mxGeometry x="570" y="230" width="100" height="100" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="OF_hGV95gJF7EMVbI0KL-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=13;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="OF_hGV95gJF7EMVbI0KL-11" target="OF_hGV95gJF7EMVbI0KL-0">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="640" y="200" />
-              <mxPoint x="55" y="200" />
+              <mxPoint x="740" y="200" />
+              <mxPoint x="155" y="200" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -56,16 +56,63 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="OF_hGV95gJF7EMVbI0KL-11" value="密码通过？" style="rhombus;whiteSpace=wrap;html=1;fontSize=13;fontStyle=1" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="600" y="240" width="80" height="80" as="geometry" />
+          <mxGeometry x="700" y="240" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="OF_hGV95gJF7EMVbI0KL-14" value="NO" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=13;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="330" y="160" width="40" height="40" as="geometry" />
+          <mxGeometry x="430" y="170" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OF_hGV95gJF7EMVbI0KL-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="OF_hGV95gJF7EMVbI0KL-15" target="OF_hGV95gJF7EMVbI0KL-17">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <UserObject label="点击“CHOOSE ENCRYPTED FILE”按钮并选择***.VCU文件" id="OF_hGV95gJF7EMVbI0KL-15">
           <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fontSize=13;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-            <mxGeometry x="595" y="370" width="90" height="80" as="geometry" />
+            <mxGeometry x="695" y="370" width="90" height="80" as="geometry" />
           </mxCell>
         </UserObject>
+        <mxCell id="OF_hGV95gJF7EMVbI0KL-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="OF_hGV95gJF7EMVbI0KL-17" target="OF_hGV95gJF7EMVbI0KL-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="点击“WRITE ENCRYPTED FILE”按钮，等待进度条加载" id="OF_hGV95gJF7EMVbI0KL-17">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fontSize=13;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+            <mxGeometry x="580" y="370" width="90" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="OF_hGV95gJF7EMVbI0KL-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=13;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="OF_hGV95gJF7EMVbI0KL-19" target="OF_hGV95gJF7EMVbI0KL-0">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="450" y="340" />
+              <mxPoint x="155" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OF_hGV95gJF7EMVbI0KL-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="OF_hGV95gJF7EMVbI0KL-19" target="OF_hGV95gJF7EMVbI0KL-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OF_hGV95gJF7EMVbI0KL-19" value="加载完成？" style="rhombus;whiteSpace=wrap;html=1;fontSize=13;fontStyle=1" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="450" y="370" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="OF_hGV95gJF7EMVbI0KL-22" value="YES" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=13;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="740" y="330" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OF_hGV95gJF7EMVbI0KL-23" value="NO" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=13;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="450" y="350" width="30" height="30" as="geometry" />
+        </mxCell>
+        <UserObject label="退出程序，按下VCU复位按钮，再关闭36V和24V电源" id="OF_hGV95gJF7EMVbI0KL-26">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fontSize=13;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+            <mxGeometry x="250" y="370" width="90" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="OF_hGV95gJF7EMVbI0KL-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="OF_hGV95gJF7EMVbI0KL-27" target="OF_hGV95gJF7EMVbI0KL-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="开始" id="OF_hGV95gJF7EMVbI0KL-27">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fontSize=13;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+            <mxGeometry x="20" y="255" width="60" height="50" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="OF_hGV95gJF7EMVbI0KL-30" value="YES" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=13;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="380" y="380" width="30" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

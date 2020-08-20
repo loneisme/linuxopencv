@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-08-20T01:44:01.743Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36" etag="c0jGO1OKu9CWTp2cfTcQ" version="13.6.3" type="github">
+<mxfile host="app.diagrams.net" modified="2020-08-20T01:45:54.783Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36" etag="fcV3YKeGKfcKiaFmDEbr" version="13.6.3" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="782" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -52,12 +52,20 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="OF_hGV95gJF7EMVbI0KL-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="OF_hGV95gJF7EMVbI0KL-11" target="OF_hGV95gJF7EMVbI0KL-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="OF_hGV95gJF7EMVbI0KL-11" value="密码通过？" style="rhombus;whiteSpace=wrap;html=1;fontSize=13;fontStyle=1" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="600" y="240" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="OF_hGV95gJF7EMVbI0KL-14" value="NO" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=13;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="330" y="160" width="40" height="40" as="geometry" />
         </mxCell>
+        <UserObject label="点击“CHOOSE ENCRYPTED FILE”按钮并选择***.VCU文件" id="OF_hGV95gJF7EMVbI0KL-15">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fontSize=13;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+            <mxGeometry x="595" y="370" width="90" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
       </root>
     </mxGraphModel>
   </diagram>
